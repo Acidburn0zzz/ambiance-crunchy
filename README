@@ -3,6 +3,7 @@ ambiance-crunchy
 	http://box-look.org/content/show.php/?content=136162
 
 An ambiance-like theme for fluxbox, openbox, Xfwm, GNOME3 (Unity, Gnome-Shell, Gnome-Classic & Cinnamon). gtk3 v3.12 and Cinnamon 2.0 compatible.
+With numix-like titlebar for Xfwm4.
 
 To install:
 	Copy the files(fluxbox,icons,themes) to /usr/share.
