@@ -6,6 +6,6 @@ An ambiance-like theme for fluxbox, openbox, Xfwm, GNOME3 (Unity, Gnome-Shell, G
 
 To install:
 	Copy the files(fluxbox,icons,themes) to /usr/share.
-	Make sure you has murrine && unico && pixbuf engines installed.(For gtk2, gtk3, libreoffice)
+	Make sure you have murrine && unico && pixbuf engines installed.(For gtk2, gtk3, libreoffice)
 
 License: GPL
