@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="22"
+   height="22"
+   version="1.1"
+   id="svg2"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="edit-find.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1024"
+     inkscape:window-height="715"
+     id="namedview17"
+     showgrid="false"
+     inkscape:zoom="23.272727"
+     inkscape:cx="11"
+     inkscape:cy="11"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <title
+     id="title4">Clarity Icon</title>
+  <desc
+     id="desc6">This icon is a part of Clarity icon theme for gtk</desc>
+  <!--
+
+    This icon is a part of Clarity vector icon theme for gtk
+
+    Copyright (C) 2010 Jakub Jankiewicz <http://jcubic.pl> 
+
+    licensed under the GNU GPL Version 3 <http://www.gnu.org/licenses/>.
+
+    -->
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Clarity Icon</dc:title>
+        <dc:description>This icon is a part of Clarity icon theme for gtk</dc:description>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Jankiewicz</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Jakub Jankiewicz</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:date>2010</dc:date>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://www.gnu.org/copyleft/gpl.html" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs10">
+    <linearGradient
+       x1="0"
+       y1="128"
+       x2="128"
+       y2="0"
+       id="gradient"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.17814125,0,0,0.17814125,-0.40721012,-0.40110435)">
+      <stop
+         id="start"
+         style="stop-color:#dbdbdb;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop"
+         style="stop-color:#757575;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+  </defs>
+  <path
+     d="m 8.0345339,2.0751539 c -3.32044,0 -6.034534,2.7140932 -6.034534,6.0345349 0,3.3204422 2.714094,6.0401022 6.034534,6.0401022 1.314736,0 2.5341611,-0.431645 3.5294241,-1.152352 l 1.174619,1.174619 c -0.275998,0.512268 -0.199782,1.164112 0.23381,1.597705 l 3.757667,3.757666 c 0.52989,0.52989 1.385129,0.52989 1.915019,0 l 0.957509,-0.95751 c 0.529891,-0.529888 0.529891,-1.385129 0,-1.915018 L 15.844915,12.897235 C 15.411323,12.463643 14.759479,12.387426 14.24721,12.663424 l -1.196886,-1.196886 c 0.648345,-0.961458 1.029879,-2.1171388 1.029879,-3.3568492 0,-3.3204417 -2.725226,-6.0345349 -6.0456691,-6.0345349 z m 0,2.3603716 c 2.0424341,0 3.6797311,1.6317295 3.6797311,3.6741633 0,2.0424342 -1.637297,3.6741632 -3.6797311,3.6741632 -2.042431,0 -3.668596,-1.631729 -3.668596,-3.6741632 0,-2.0424338 1.626165,-3.6741633 3.668596,-3.6741633 z"
+     style="fill:url(#gradient);fill-opacity:1;stroke:none"
+     id="path15"
+     inkscape:connector-curvature="0" />
+</svg>

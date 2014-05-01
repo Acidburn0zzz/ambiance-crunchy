@@ -1,0 +1,71 @@
+#!/bin/sh
+# script to convert and copy file in fluxbox
+
+# remove old versions of converted files
+rm -f -r sty*
+
+# common buttons
+cd 00-svgSource/00-common
+mkdir -p pixmaps
+find . -name "*svg" | xargs -l -i basename "{}" ".svg" | xargs -l -i  convert -depth 6 -background none "{}.svg" pixmaps/"{}.xpm"
+cd .. # parent folder: "00-svgSource"
+cd .. # parent folder: "fluxbox"
+mkdir -p styles
+mkdir -p styles/02-Crunchy-orange
+mv 00-svgSource/00-common/pixmaps styles/02-Crunchy-orange
+## symbolic links
+cd styles/02-Crunchy-orange/pixmaps
+cp -s grips.xpm handle.xpm
+cp -s title-focus.xpm title-unfocus.xpm
+cd .. # parent folder: "02-Crunchy-orange"
+cd .. # parent folder: "styles"
+cd .. # parent folder: "fluxbox"
+###
+### creation of other colored version folders
+cp -d -r styles/02-Crunchy-orange/ styles/03-Crunchy-blue
+cp -d -r styles/02-Crunchy-orange/ styles/04-Crunchy-grey
+cp -d -r styles/02-Crunchy-orange/ styles/05-Crunchy-green
+
+##################
+# orange buttons #
+##################
+cd 00-svgSource/02-orange
+mkdir -p pixmaps
+find . -name "*svg" | xargs -l -i basename "{}" ".svg" | xargs -l -i  convert -depth 6 -background none "{}.svg" pixmaps/"{}.xpm"
+cd .. # parent folder: "00-svgSource"
+cd .. # parent folder: "fluxbox"
+cp -d -r 00-svgSource/02-orange/pixmaps/* styles/02-Crunchy-orange/pixmaps/.
+rm -f -r 00-svgSource/02-orange/pixmaps
+
+################
+# blue buttons #
+################
+cd 00-svgSource/03-blue
+mkdir -p pixmaps
+find . -name "*svg" | xargs -l -i basename "{}" ".svg" | xargs -l -i  convert -depth 6 -background none "{}.svg" pixmaps/"{}.xpm"
+cd .. # parent folder: "00-svgSource"
+cd .. # parent folder: "fluxbox"
+cp -d -r 00-svgSource/03-blue/pixmaps/* styles/03-Crunchy-blue/pixmaps/.
+rm -f -r 00-svgSource/03-blue/pixmaps
+
+################
+# grey buttons #
+################
+cd 00-svgSource/04-grey
+mkdir -p pixmaps
+find . -name "*svg" | xargs -l -i basename "{}" ".svg" | xargs -l -i  convert -depth 6 -background none "{}.svg" pixmaps/"{}.xpm"
+cd .. # parent folder: "00-svgSource"
+cd .. # parent folder: "fluxbox"
+cp -d -r 00-svgSource/04-grey/pixmaps/* styles/04-Crunchy-grey/pixmaps/.
+rm -f -r 00-svgSource/04-grey/pixmaps
+
+#################
+# green buttons #
+#################
+cd 00-svgSource/05-green
+mkdir -p pixmaps
+find . -name "*svg" | xargs -l -i basename "{}" ".svg" | xargs -l -i  convert -depth 6 -background none "{}.svg" pixmaps/"{}.xpm"
+cd .. # parent folder: "00-svgSource"
+cd .. # parent folder: "fluxbox"
+cp -d -r 00-svgSource/05-green/pixmaps/* styles/05-Crunchy-green/pixmaps/.
+rm -f -r 00-svgSource/05-green/pixmaps

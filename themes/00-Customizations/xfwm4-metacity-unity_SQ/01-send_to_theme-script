@@ -1,0 +1,16 @@
+#!/bin/sh
+# script to move the converted files to the theme
+cd .. # parent folder: "00-Customizations"
+cd .. # parent folder: "themes"
+cd .. # parent folder: where "themes" is (if the folder name have had changed, change the commands below)
+cp --remove-destination -r themes/00-Customizations/xfwm4-metacity-unity_SQ/02-Crunchy-orange_SQ themes
+cp --remove-destination -r themes/00-Customizations/xfwm4-metacity-unity_SQ/03-Crunchy-blue_SQ themes
+cp --remove-destination -r themes/00-Customizations/xfwm4-metacity-unity_SQ/04-Crunchy-grey_SQ themes
+cp --remove-destination -r themes/00-Customizations/xfwm4-metacity-unity_SQ/05-Crunchy-green_SQ themes
+
+# remove copied folders
+cd themes/00-Customizations/xfwm4-metacity-unity_SQ
+rm -f -r 02*
+rm -f -r 03*
+rm -f -r 04*
+rm -f -r 05*
